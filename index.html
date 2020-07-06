@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessTheNumber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" onload="setFocus()">
+
+    <p class="text" id="text">-Guess a number from 1 to 100, please!-</p>
+    <p id="amount" class="amount"></p>
+    <div class="box">
+        <input type="text" id="input" class="input">
+        <button class="btn_submit btn" onclick="number()">OK</button>
+        <button class="btn_replay btn" id="replay" onclick="replayGame()">Replay</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
